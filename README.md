@@ -147,9 +147,6 @@ shelterbelt-segmentation-planet/
 ├── LICENSE                           # MIT License
 ├── README.md                         # Main repository guide (this file)
 ├── requirements.txt                  # Python runtime dependencies
-├── tile_splits.json                  # Spatial train/val/test quad partition
-├── config.py                         # Single source of truth (paths, parameters, seeds)
-├── pipeline.py                       # Modular execution engine (stages 000–007)
 │
 ├── figures/                          # Publication figures & cartography
 │   └── study_area_map.png            # High-resolution study area map
