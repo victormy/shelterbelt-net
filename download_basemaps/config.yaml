@@ -1,0 +1,10 @@
+tile_directory: ./img
+tile_feature_filename: ./sampled_quads.geojson
+
+mosaics:
+  - name: global_monthly_2025_07_mosaic
+    id: 86650aba-b553-4446-9665-59361946f980
+    output_status_filename: ./status/status_global_monthly_2025_07.geojson
+  - name: global_monthly_2021_07_mosaic
+    id: e0c03fb4-0820-4ff8-be26-06cbaef9a7a7
+    output_status_filename: ./status/status_global_monthly_2021_07.geojson

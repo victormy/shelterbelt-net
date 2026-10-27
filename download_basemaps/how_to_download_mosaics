@@ -1,0 +1,10 @@
+pip install click
+pip install geopandas
+pip install pandas
+pip install shapely
+
+1) set PL_API_KEY=<your-planet-api-key>
+
+1) python create_quad_index.py aoi.geojson aoi_quads.geojson
+
+2) python download_by_tile_index.py config.yaml <number_of_tiles>

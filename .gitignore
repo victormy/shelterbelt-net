@@ -1,0 +1,49 @@
+# ===================================================================
+# Intermediate generated workflow data (do not commit)
+# ===================================================================
+masks/
+models/2021/
+models/2022/
+models/2025/
+images/*/*/global_multiseasonal_*
+download_basemaps/img/
+download_basemaps/status/
+*.log
+
+# ===================================================================
+# Raw Planet imagery (prevent committing copyrighted raw GeoTIFFs)
+# ===================================================================
+images/**/*.tif
+images/**/*.tiff
+images/**/*.aux.xml
+
+# ===================================================================
+# Python & Jupyter artifacts
+# ===================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.virtual_documents/
+
+# ===================================================================
+# Testing & Virtual Environments
+# ===================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+*.env
+venv/
+.venv/
+env/
+
+# ===================================================================
+# OS & Editor junk
+# ===================================================================
+desktop.ini
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+*.tmp
