@@ -49,7 +49,7 @@
 
 ## Overview
 
-Shelterbelts (*polezakhysni lisovi smugy*) are narrow, linear tree plantations established along agricultural field boundaries across Ukraine's steppe and forest-steppe zones. They provide indispensable ecosystem services: mitigating severe wind erosion, retaining winter snow cover, conserving soil moisture, and stabilizing dryland crop yields.
+Shelterbelts are narrow, linear tree plantations established along agricultural field boundaries across Ukraine's steppe and forest-steppe zones. They provide indispensable ecosystem services: mitigating severe wind erosion, retaining winter snow cover, conserving soil moisture, and stabilizing dryland crop yields.
 
 Since February 2022, active hostilities, intensive artillery bombardment, defensive fortifications, vehicle compaction, and uncontrolled wildfires in eastern Ukraine have inflicted catastrophic damage on these protective networks. Because shelterbelts are typically only 10–30 meters wide, standard medium-resolution satellite sensors (e.g., Sentinel-2 10 m, Landsat 30 m) suffer from severe mixed-pixel effects, preventing reliable detection of fragmentation and fine-scale canopy loss.
 
