@@ -49,16 +49,9 @@
 
 ## Overview
 
-Shelterbelts are narrow, linear tree plantations established along agricultural field boundaries across Ukraine's steppe and forest-steppe zones. They provide indispensable ecosystem services: mitigating severe wind erosion, retaining winter snow cover, conserving soil moisture, and stabilizing dryland crop yields.
+Shelterbelts are narrow, linear tree plantations established along agricultural field boundaries. They provide important ecosystem services: mitigating severe wind erosion, retaining winter snow cover, conserving soil moisture, and stabilizing dryland crop yields. Since 2014, and more intensively since full-scale Russian invasion in February 2022, active hostilities, intensive artillery bombardment, defensive fortifications, vehicle compaction, and uncontrolled wildfires in eastern and southern Ukraine have inflicted catastrophic damage on these protective networks. Because shelterbelts are typically only 10–30 meters wide, standard medium-resolution satellite sensors (e.g., Sentinel-2 10 m, Landsat 30 m) suffer from severe mixed-pixel effects, preventing their reliable detection.
 
-Since February 2022, active hostilities, intensive artillery bombardment, defensive fortifications, vehicle compaction, and uncontrolled wildfires in eastern Ukraine have inflicted catastrophic damage on these protective networks. Because shelterbelts are typically only 10–30 meters wide, standard medium-resolution satellite sensors (e.g., Sentinel-2 10 m, Landsat 30 m) suffer from severe mixed-pixel effects, preventing reliable detection of fragmentation and fine-scale canopy loss.
-
-This repository implements a high-resolution, deep learning semantic segmentation framework utilizing **4.7 m Planet basemaps and PlanetScope constellations** to map and monitor shelterbelt networks across five annual epochs (2021–2025). Key methodology highlights:
-1. **Multi-seasonal feature learning**: 9-band composite inputs (April, July, October) capturing distinct phenological trajectories to distinguish deciduous shelterbelts from surrounding croplands and natural forests.
-2. **Convolutional & Transformer Backbones**: U-Net with ResNet34 and SegFormer with MiT-B0 encoders optimized with Dice loss for extreme foreground-background class imbalance.
-3. **Artifact-Free Inference**: Sliding-window prediction with **2D Gaussian kernel blending** and 50% spatial overlap to eliminate boundary and tile-seam artifacts.
-4. **Multi-Temporal Ensemble Voting**: Pixel-level temporal voting across multiple summer observations (June–September) to eliminate transient cloud shadows and seasonal farming artifacts.
-5. **Rigorous Statistical Verification**: Good-practice stratified area estimation following **Olofsson et al. (2014)** coupled with spatial block-bootstrap resampling ($N=1{,}000$) to provide unbiased, error-adjusted net loss figures with 95% confidence intervals.
+This repository implements a high-resolution, deep learning semantic segmentation framework utilizing **4.7 m Planet basemaps and PlanetScope imagery** to map shelterbelt networks across 2021–2025. 
 
 ---
 
