@@ -1,0 +1,32 @@
+<VRTDataset rasterXSize="119727" rasterYSize="155273">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["Ukraine_Albers_East",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["latitude_of_center",44],PARAMETER["longitude_of_center",31.15],PARAMETER["standard_parallel_1",45.7],PARAMETER["standard_parallel_2",51],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform>  2.2203520661884421e+05,  3.1721258166644226e+00,  0.0000000000000000e+00,  7.4371455634668772e+05,  0.0000000000000000e+00, -3.1721258166644226e+00</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">global_monthly_2025_clean_cl123_albers-done.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="66729" RasterYSize="92331" DataType="Byte" BlockXSize="66729" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="66729" ySize="92331" />
+      <DstRect xOff="52998" yOff="38851" xSize="66729" ySize="92331" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">global_monthly_2025_clean_cl123_albers-khar.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="76979" RasterYSize="74322" DataType="Byte" BlockXSize="76979" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="76979" ySize="74322" />
+      <DstRect xOff="12034" yOff="0" xSize="76979" ySize="74322" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">global_monthly_2025_clean_cl123_albers-zapo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="76592" RasterYSize="72252" DataType="Byte" BlockXSize="76592" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="76592" ySize="72252" />
+      <DstRect xOff="0" yOff="83021" xSize="76592" ySize="72252" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
