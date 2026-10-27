@@ -131,8 +131,8 @@ Notebook [`notebooks/007_postprocessing.ipynb`](notebooks/007_postprocessing.ipy
 git lfs install
 
 # Clone the repository and fetch large files
-git clone https://github.com/your-username/shelterbelt-segmentation-planet.git
-cd shelterbelt-segmentation-planet
+git clone https://github.com/victormy/shelterbelt-net.git
+cd shelterbelt-net
 git lfs pull
 ```
 
@@ -235,8 +235,8 @@ shelterbelt-segmentation-planet/
 Clone the repository and install dependencies in a Python 3.10+ environment:
 
 ```bash
-git clone https://github.com/your-username/shelterbelt-segmentation-planet.git
-cd shelterbelt-segmentation-planet
+git clone https://github.com/victormy/shelterbelt-net.git
+cd shelterbelt-net
 pip install -r requirements.txt
 ```
 
