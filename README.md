@@ -23,7 +23,7 @@
 
 ![Study Area & Spatial Quad Partitions across Eastern Ukraine](figures/study_area.png)
 
-*Figure 1: Study area across Kharkiv, Donetsk, and Zaporizhzhia oblasts in eastern Ukraine, showing the PlanetScope tiling grid ($n=608$), sampled training (n=16), validation (n=4), and testing (n=3) quads, frontline dynamics (February 2022, September 2022, December 2025), and 2021 baseline forest cover (Myroniuk et al., 2024; https://doi.org/10.1016/j.foreco.2024.122156).*
+*Figure 1: Study area across Kharkiv, Donetsk, and Zaporizhzhia oblasts in eastern Ukraine, showing the PlanetScope tiling grid (n=608), sampled training (n=16), validation (n=4), and testing (n=3) quads, frontline dynamics (February 2022, September 2022, December 2025), and 2021 baseline forest cover (Myroniuk et al., 2024; https://doi.org/10.1016/j.foreco.2024.122156).*
 
 ---
 
