@@ -15,7 +15,7 @@
 >
 > **Authors:** Viktor Myroniuk, Yevhenii Khan, Oleksandr Sovakov, Maksym Matsala, Andrii Lashchenko, Anatolii Makarevych, Andrii Terentiev
 >
-> *Environmental Research Letters* (2026).
+> Myroniuk et al 2026 Environ. Res. Lett. https://doi.org/10.1088/1748-9326/aebaa1.
 
 ---
 
